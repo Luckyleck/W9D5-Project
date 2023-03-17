@@ -9,7 +9,7 @@ function GalleryNavigation(props) {
     console.log(galleries)
 
     const galleryLinks = galleries.map((gallery) => {
-        return <Gallery galleryId={gallery.gallerynumber}/>
+        return <Gallery key={gallery.galleryNumber} galleryId={gallery.gallerynumber} galleryName={gallery.name}/>
     })
 
     return (
