@@ -5,7 +5,7 @@ import Gallery from "./Gallery";
 function GalleryNavigation(props) {
     // console.log(props)
 
-    const {galleries} = props;
+    const {galleries} = props; // galleries comes from prop
     console.log(galleries)
 
     const galleryLinks = galleries.map((gallery) => {
