@@ -22,6 +22,8 @@ function GalleryNavigation(props) {
             {galleryLinks}
         </nav>
     );
+
+    // To change URL
 }
 
 export default GalleryNavigation;
